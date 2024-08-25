@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="goit-markup-hw-01">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,15 +42,71 @@
             </svg>
         </button>
         </div>
+
+        <div class="mobile-menu">
+            <div class="container mobile-menu-container">
+                <button class="mobile-menu-close">
+                    <svg class="svg-close-heder" width="24" height="24">
+                        <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+                    </svg>
+                </button>
+                <nav class="mobile-menu-nav">
+                    <ul class="list-mobail-menu">
+                        <li><a href="/" class="link-mobile-nav">Studio</a></li>
+                        <li><a href="/" class="link-mobile-nav">Portfolio</a></li>
+                        <li><a href="/" class="link-mobile-nav">Contacts</a></li>
+                    </ul>
+                </nav>
+                <address class="contact-mobile-menu"></address>
+                <ul class="list-adress-contact">
+                  
+                    <li class="mobile-punkt"><a href="mailto:info@devstudio.com" class="link-two-mobile">info@devstudio.com</a></li>
+                    <li class="mobile-punkt"> <a href="tel:+110001111111" class="link-two-mobile">+11 (000) 111-11-11</a></li> 
+                    
+                </ul>
+                <ul class="modal-i-list-svg">
+                    <li class="icon-list-modal-svg">
+                            <a class="modal-link-icon" href="#">
+                        <svg width="16" height="16" class="svg-m">
+                            <use href="./images/icons.svg#icon-instagram-2"> </use>
+                        </svg>
+                    </a>
+                    </li>
+                    <li class="icon-list-modal-svg">
+                            <a class="modal-link-icon" href="#">
+                        <svg width="16" height="16" class="svg-m">
+                            <use href="./images/icons.svg#icon-Group"> </use>
+                        </svg>
+                    </a>
+                    </li>
+                    <li class="icon-list-modal-svg">
+                            <a class="modal-link-icon" href="#">
+                        <svg width="16" height="16" class="svg-m">
+                            <use href="./images/icons.svg#icon-facebook-1"> </use>
+                        </svg>
+                    </a>
+                    </li>
+                    <li class="icon-list-modal-svg">
+                            <a class="modal-link-icon" href="#">
+                        <svg width="16" height="16" class="svg-m">
+                            <use href="./images/icons.svg#icon-linkedin-1"> </use>
+                        </svg>
+                    </a>
+                    </li>
+                    
+                </ul>
+                
+            </div>
+        </div>
     </header>  
     <main>
-        <section class="section-one hidden">
+        <section class="section-one">
             <div class="container">
             <h1 class="zag-one">Effective Solutions<br> for Your Business</h1>
             <button type="button" class="button">Order Service</button>
             </div>
         </section>
-        <section class="section-two hidden">
+        <section class="section-two">
             <div class="container">
              <h2 class="visually-hidden">Our advantages</h2>
              <ul class="advantages">
